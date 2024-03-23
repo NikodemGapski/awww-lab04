@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Peru Overview</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head> 
+<body class="text-slate-700">
+    <header class="header py-5 flex flex-row">
+        <h1 class="flex-auto text-center uppercase text-2xl">Welcome to Peru</h1>
+        <div class="flex flex-col">
+            <span class="h-5 w-10 rounded-md bg-green-300"></span>
+            <span class="h-5 w-10 rounded-md bg-red-500"></span>
+        </div>
+        <span class="flex-none h-10 w-10 rounded-lg bg-yellow-300"></span>
+    </header>
+
+    <div class="sidebar flex flex-col bg-slate-700 text-slate-50">
+        <h2 class="uppercase text-xl bg-green-800 py-1.5">Table of Contents</h2>
+        <nav class="nav">
+            <ul>
+                <a href="#summary">               <li class="hover:bg-green-600 p-3">   Summary                     </li></a>
+                <a href="#founding-dates">        <li class="hover:bg-green-600 p-3">   Founding Dates              </li></a>
+                <a href="#colonial-history">      <li class="hover:bg-green-600 p-3">   Colonial History            </li></a>
+                <a href="#indigenous-rebellions"> <li class="hover:bg-green-600 p-3">   Indigenous Rebellions       </li></a>
+                <a href="#map">                   <li class="hover:bg-green-600 p-3">   Map                         </li></a>
+                <a href="#site-finalization">     <li class="hover:bg-green-600 p-3">   Site Finalization           </li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+        <section id="summary">
+            <h2 class="text-emerald-700 uppercase py-1.5 bg-slate-50">Summary</h2>
+            <details>
+                <summary>
+                    Click to expand
+                    <span class="animate-ping h-1 w-1 rounded-full bg-slate-600 absolute"></span>
+                </summary>
+                <p>This page provides an overview of Peru, including information about the country, its cities, popular attractions, colonial history, indigenous rebellions, and more. Explore the founding dates of cities in Peru, learn about famous landmarks, and discover the rich cultural heritage of this South American country. Leave a comment and share your thoughts about Peru. Enjoy your journey!</p>
+            </details>
+        </section>
+    
+        <section id="founding-dates">
+            <h2 class="text-emerald-700 uppercase py-1.5 bg-slate-50">Founding Dates of Cities in Peru</h2>
+            <table class="w-full p-3 shadow-lg table-auto">
+                <caption class="text-left">Table of Founding Dates</caption>
+                <thead class="bg-emerald-100">
+                    <tr>
+                        <th>City</th>
+                        <th>Founding Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lima</td>
+                        <td>January 18, 1535</td>
+                    </tr>
+                    <tr>
+                        <td>Arequipa</td>
+                        <td>August 15, 1540</td>
+                    </tr>
+                    <tr>
+                        <td>Cusco</td>
+                        <td>Around 1100</td>
+                    </tr>
+                    <!-- Add more cities and founding dates here -->
+                </tbody>
+            </table>
+        </section>
+        
+        <article id="colonial-history">
+            <h2 class="text-emerald-700 uppercase py-1.5 bg-slate-50">Peru's Colonial History</h2>
+            <p>Peru has a rich colonial history that greatly influenced its culture and architecture. During the colonial period, which lasted from the 16th to the 19th century, Peru was under Spanish rule.</p>
+            <p><em>Conquistadors</em> such as Francisco Pizarro played a significant role in the colonization of Peru. They conquered the Inca Empire and established the city of Lima as the capital.</p>
+            <p>The colonial era brought about a fusion of Spanish and indigenous cultures, resulting in unique art, music, and cuisine. The <strong>Baroque architecture</strong> of churches and cathedrals in cities like Cusco and Arequipa showcases the grandeur of this period.</p>
+            <p>Today, visitors can explore numerous colonial landmarks, including the <strong>Plaza de Armas</strong> in Lima and the <strong>Santo Domingo Church</strong> in Cusco.</p>
+        </article>
+    
+        <section id="indigenous-rebellions">
+            <h2 class="text-emerald-700 uppercase py-1.5 bg-slate-50">Indigenous Rebellions in Peru</h2>
+            <p>Peru has a long history of indigenous rebellions, where native populations fought against colonial oppression and later, for their rights and recognition.</p>
+            <p>These rebellions were often sparked by the exploitation and mistreatment of indigenous communities, as well as the loss of their lands and cultural heritage.</p>
+            <p>One notable rebellion was the <a class="text-orange-950" href="https://en.wikipedia.org/wiki/T%C3%BApac_Amaru_Revolutionary_Movement" target="_blank"><strong>Túpac Amaru II Rebellion</strong></a> in the late 18th century. Led by indigenous leader José Gabriel Condorcanqui, also known as Túpac Amaru II, the rebellion aimed to challenge Spanish rule and fight for indigenous rights.</p>
+            <p>Another significant rebellion was the <strong>Amazonian Indigenous Uprising</strong> in the 20th century. Indigenous communities in the Amazon rainforest protested against the destruction of their lands and the exploitation of natural resources.</p>
+            <img src="rebeliones.jpg" alt="Indigenous Rebellions in Peru">
+        </section>
+    
+        <section id="map">
+            <h2 class="text-emerald-700 uppercase py-1.5 bg-slate-50">Map of Peru</h2>
+            <img src="map.jpg" alt="Map of Peru" usemap="#peru-map">
+    
+            <map name="peru-map">
+                <area shape="circle" coords="100,100,50" href="city1.html" alt="City 1">
+                <area shape="circle" coords="200,200,50" href="city2.html" alt="City 2">
+                <area shape="circle" coords="300,300,50" href="city3.html" alt="City 3">
+            </map>
+        </section>
+    
+        <section id="site-finalization">
+            <h2 class="text-emerald-700 uppercase py-1.5 bg-slate-50">Site Finalization</h2>
+            <progress value="75" max="100"></progress>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p class="bg-red-100">Disclaimer: All factual data on this site was generated by a LLM (Language Model). Please verify the information independently for accuracy.</p>
+        <p>&copy; 2024 Peru Cities. All rights reserved.</p>
+    </footer>
+</body>
+</html>
